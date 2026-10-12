@@ -103,7 +103,7 @@ Satellite patches, model checkpoints and full model repositories are **not inclu
 To reproduce the work you need:
 - Google Earth Engine access (custom assets are listed in `gee_scripts/ASSETS.md`)
 - The pretrained model repositories and checkpoints
-- Python dependencies (see `requirements.txt`)
+- Python 3 with the usual scientific stack (NumPy, pandas, scikit-learn, PyTorch, rasterio, earthengine-api)
 
 ## Limitations
 
@@ -116,6 +116,16 @@ To reproduce the work you need:
 ## Future directions
 
 Extending the dataset beyond 2018 (EM-DAT / IDMC + Copernicus EMS flood maps), comparing labels with DFO records, adding richer socioeconomic data, joint radar–optical representation learning, and learned event-level aggregation (attention pooling / multiple-instance learning).
+
+## Data credit
+
+Impact labels come from the **FLODIS** dataset, released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/):
+
+> Mester, B., Frieler, K., & Schewe, J. (2023). Human displacements, fatalities, and economic damages linked to remotely observed floods. *Scientific Data*, 10, 482. https://doi.org/10.1038/s41597-023-02376-9
+>
+> Dataset: https://doi.org/10.5281/zenodo.7306882
+
+Flood footprints come from the Global Flood Database (Tellman et al., 2021, *Nature*). Satellite imagery: Copernicus Sentinel-1 and Sentinel-2 data via Google Earth Engine.
 
 ## Author
 

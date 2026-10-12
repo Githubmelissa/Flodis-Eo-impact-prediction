@@ -1,0 +1,6 @@
+target,reference_candidate,candidate,n_seeds,mean_log_rmse_diff_candidate_minus_reference,std_log_rmse_diff,median_log_rmse_diff,candidate_better_count,candidate_better_fraction
+displacements,worldpop_gpm_srtm,worldpop_gpm_plus_s1gee,30,-0.06938696521306867,0.05177107715151877,-0.06303373617020425,28,0.9333333333333333
+displacements,worldpop_gpm_srtm,worldpop_gpm_srtm_plus_s1gee,30,-0.04733703541908493,0.0405304202802926,-0.05589593030036877,27,0.9
+displacements,worldpop_gpm_srtm,worldpop_gpm,30,0.0491172061517315,0.045836786363284934,0.05464709446911331,3,0.1
+displacements,worldpop_gpm_srtm,s1gee_only,30,0.2217973121138382,0.10467499486260443,0.23824957968302996,0,0.0
+displacements,worldpop_gpm_srtm,baseline_median,30,0.3521395099298278,0.08388557554909398,0.3609580251733817,0,0.0

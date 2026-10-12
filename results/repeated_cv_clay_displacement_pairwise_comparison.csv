@@ -1,0 +1,8 @@
+target,reference_candidate,candidate,n_seeds,mean_log_rmse_diff_candidate_minus_reference,std_log_rmse_diff,median_log_rmse_diff,candidate_better_count,candidate_better_fraction
+displacements,worldpop_gpm_srtm,worldpop_gpm_srtm_plus_clay_quality,30,-0.014587133741266738,0.029414324739398562,-0.023160416375232806,24,0.8
+displacements,worldpop_gpm_srtm,worldpop_gpm_plus_clay_quality,30,-0.004100379776304338,0.057098465867874856,-0.008788471172365808,16,0.5333333333333333
+displacements,worldpop_gpm_srtm,worldpop_gpm_srtm_plus_clay_quality_pca_4,30,0.029020899107224052,0.03867671213606841,0.01914762982746665,7,0.23333333333333334
+displacements,worldpop_gpm_srtm,worldpop_gpm_srtm_plus_clay_pca_8,30,0.0298557364912166,0.037642156869680726,0.027315857842564295,5,0.16666666666666666
+displacements,worldpop_gpm_srtm,worldpop_gpm_srtm_plus_clay_pca_4,30,0.04095063143441823,0.027719609037852068,0.03952743546671145,2,0.06666666666666667
+displacements,worldpop_gpm_srtm,worldpop_gpm,30,0.06080084942130607,0.044753256705646435,0.06252223391080314,5,0.16666666666666666
+displacements,worldpop_gpm_srtm,baseline_median,30,0.4182885768848454,0.08008100188877816,0.41156972932682545,0,0.0

@@ -1,0 +1,5 @@
+target,n_samples,n_splits,n_repeats,candidate,model,pca_components,n_features_base,n_features_deep,mean_log_rmse,std_log_rmse,mean_log_r2,std_log_r2,wins_vs_baseline,win_rate_vs_baseline
+displacements,50,5,6,worldpop_gpm_srtm,extra_trees,,18,0,2.4002660247246537,0.4259883545524696,-0.022526088013689483,0.5368401106213091,23,0.7666666666666667
+total_deaths,9,2,15,worldpop_gpm,random_forest,,10,0,2.197975551490981,0.5281856833719473,-1.350273730103563,3.4402535391773092,26,0.8666666666666667
+total_affected_EMDAT,14,3,10,baseline_median,baseline_median,,0,0,3.3245262533646804,1.0245020237968359,-0.3800406836482877,0.5736499580054086,0,
+total_damages_000_USD,6,2,15,clay_s2_pca_1,random_forest,1.0,0,12288,3.296410146608292,0.8708625728209068,-2.4829283933977435,5.628807009290129,24,0.8

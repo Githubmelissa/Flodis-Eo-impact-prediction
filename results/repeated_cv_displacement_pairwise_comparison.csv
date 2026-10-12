@@ -1,0 +1,8 @@
+reference_candidate,candidate,n_seeds,mean_log_rmse_diff_candidate_minus_reference,std_log_rmse_diff,median_log_rmse_diff,candidate_better_count,candidate_better_fraction
+rf_worldpop_gpm_srtm,rf_worldpop_gpm_plus_s1_quality,30,-0.020708619897741518,0.043514312427877545,-0.019724960784994083,21,0.7
+rf_worldpop_gpm_srtm,rf_worldpop_gpm_srtm_plus_s1_quality,30,-0.018215297373912462,0.025993347211658413,-0.023784752721849767,25,0.8333333333333334
+rf_worldpop_gpm_srtm,rf_worldpop_gpm_plus_s1_compact,30,0.020553842595149505,0.06986042836380628,0.03654253709412991,13,0.43333333333333335
+rf_worldpop_gpm_srtm,rf_worldpop_gpm,30,0.02087159790935481,0.030999904193192082,0.0211902713526555,6,0.2
+rf_worldpop_gpm_srtm,rf_worldpop_gpm_srtm_plus_s1_compact,30,0.029743042142964037,0.0624961305634631,0.04454422884823761,10,0.3333333333333333
+rf_worldpop_gpm_srtm,rf_worldpop_gpm_srtm_plus_snunet_floodvit_pca8,30,0.04260471387111564,0.04110635884183984,0.03843508660540684,6,0.2
+rf_worldpop_gpm_srtm,baseline_median,30,0.41570961651204213,0.07018312160807585,0.40889592651138185,0,0.0

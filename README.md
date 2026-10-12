@@ -57,19 +57,26 @@ Models are used **frozen** as feature extractors. Patch features are aggregated 
 
 ## Results
 
-Displacement prediction, repeated cross-validation on a common subset of **45 events**:
+Displacement prediction — RMSE reduction is measured relative to the contextual-data baseline:
 
-| Representation | Regressor | Mean log RMSE ↓ | Mean R² ↑ |
-|---|---|---|---|
-| Clay S1 + DOFA S2 | Ridge | **2.452** | **0.154** |
-| Clay S1 + Clay S2 | Extra Trees | 2.453 | 0.154 |
-| DOFA S2 | Ridge | 2.468 | 0.144 |
-| Clay S2 | Random Forest | 2.477 | 0.133 |
+| Representation | R² ↑ | RMSE reduction |
+|---|---|---|
+| Contextual data | −0.052 | Reference |
+| Clay S1 | 0.20 | 12.8% |
+| Clay S2 | 0.27 | 16.7% |
+| CROMA S2 | 0.29 | 17.8% |
+| sm_unet_s2 | 0.10 | 7.5% |
+| Clay S1 + sm_unet_s2 | 0.26 | 16.1% |
+| **Clay S1 + Clay S2** | **0.35** | **21.4%** |
+| **CROMA S1 + CROMA S2 + Contextual data** | **0.40** | **24.5%** |
 
-- Combining radar and optical representations gave a modest improvement over single-sensor representations.
+**Key findings**
+- **Sentinel-1** provides a useful radar signal.
+- **Sentinel-2** outperforms Sentinel-1 alone.
+- **Sentinel-1 + Sentinel-2 fusion with contextual data** gives the strongest displacement prediction.
 - In a separate 101-event experiment, adding compact Sentinel-1 descriptors to WorldPop + GPM features improved over the contextual reference in **28 of 30** runs.
 
-Results come from different experimental cohorts and should only be compared within the same cohort. Full outputs are in [`results/`](results/).
+Full outputs are in [`results/`](results/).
 
 ## Repository structure
 

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*credentials*.json
+*service_account*.json
+
+# Large data and models
+*.tif
+*.tiff
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.zip
+data/
+checkpoints/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
